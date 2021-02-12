@@ -1,0 +1,48 @@
+body {
+    background-color: grey;
+    font-family: Oswald, sans-serif;
+    color: honeydew
+}
+h1 {
+    color: honeydew;
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-decoration-style: wavy;
+
+
+}
+
+table {
+    
+    text-align: center;
+    margin: 50px auto;
+    width: 50%;
+    border: 2px solid  rgb(238, 139, 139);
+}
+
+h2 {
+    color: honeydew;
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+
+}
+
+.name {
+    width: 10%;
+}
+
+.syntax {
+    width: 300px;
+}
+
+.description {
+    width: 600px;
+}
+.tabletitle {
+    background-color: rgb(238, 139, 139);
+}

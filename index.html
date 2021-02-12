@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Web Design Cheatsheet</title>
+<link href="./style.css" rel="stylesheet" type="text/css"> 
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <h1> Web Design CheatSheet</h1>
+    </header>
+
+<main class="container">
+    <table>
+        <thead>
+            <th>
+                <tr>
+                    <th colspan="8" class="tabletitle"> <h1> CSS Selectors </h1></th>
+                </tr>
+            
+                <tr>
+                    <th rowspan="2" class= "name"> <h2>Selector </h2> </th>
+                    <th rowspan="2"  ><h2>Specificity</h2> </th>
+                    <th rowspan="2"  class="description"> <h2> Description</h2> </th>
+                    <th colspan="2"><h2> Syntax</h2></th>
+                </tr>
+                <tr>
+                    
+                    
+                    
+                    <th class="syntax"> HTML</th>
+                    <th class="syntax"> CSS </th>
+                </tr>
+
+              
+            </th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td> !important </td>
+                <td>   Highest </td>
+                <td> A tag that can be used in CSS to override all other selectors. Should be avoided if possible</td>
+                <td> N/A</td>
+                <td> eg. color: blue; !important </td>
+            </tr>
+            <tr>
+                <td> id </td>
+                <td> High</td>
+                <td> A tag used in &lt;div&gt; blocks used to give certain areas specific characteristics.</td>
+                <td> &lt;div id="input"&gt;</td>
+                <td> #input {  }</td>
+            </tr>
+
+            <tr>
+                <td> class </td>
+                <td> medium</td>
+                <td> A tag used in elements used to give certain areas specific characteristics.</td>
+                <td> class="input";</td>
+                <td> .input {  }</td>
+            </tr>
+
+            <tr>
+                <td> element </td>
+                <td> Low</td>
+                <td> HTML element tags can be referenced directly in CSS to assign visual characteristics.</td>
+                <td> e.g &lt;h1&gt;</h1></td>
+                <td> h1 {  }</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</main>
+
+</body>
